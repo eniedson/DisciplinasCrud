@@ -3,7 +3,7 @@
 	<persistence-unit name="DisciplinasCrud">
 	
 	<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-		<non-jta-data-source>java:/GELogistica</non-jta-data-source>
+		<non-jta-data-source>java:/DisciplinasCrud</non-jta-data-source>
 	
 		<class>br.ifpb.crud.disciplinas.entities.Usuario</class>
 		<class>br.ifpb.crud.disciplinas.entities.Disciplina</class>

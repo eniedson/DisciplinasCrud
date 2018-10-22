@@ -3,11 +3,15 @@ package br.ifpb.crud.disciplinas.beans;
 import java.util.Collection;
 
 import javax.annotation.PostConstruct;
+import javax.faces.bean.ViewScoped;
 import javax.inject.Inject;
+import javax.inject.Named;
 
 import br.ifpb.crud.disciplinas.entities.Disciplina;
 import br.ifpb.crud.disciplinas.services.DisciplinaService;
 
+@Named
+@ViewScoped
 public class DisciplinaBean {
 	
 	@Inject
